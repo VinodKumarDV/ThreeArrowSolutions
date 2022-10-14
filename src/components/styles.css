@@ -1,0 +1,155 @@
+.App {
+    font-family: sans-serif;
+}
+
+.picker-input__text {
+    width: 31rem;
+    height: 2.4rem;
+    text-align: center;
+    margin-top: -5.5px;
+    font-weight: bold;
+    background-color:transparent;
+    border-radius: 5px;
+}
+
+h1 {
+    font-weight: bold;
+    margin-bottom: -30px;
+    background-color: #fff;
+    padding: 5.5px;
+    border-radius: 5px;
+}
+
+.calendar__container {
+    width: 31rem;
+    background-color: #151B54;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.calendar {
+    background-color: #151B54;
+}
+
+.calendar__head {
+    background-color: #151B54;
+}
+
+.calendar__day {
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.calendar__day--0 {
+    color: red;
+}
+
+.calendar__body--table th {
+    color: royalblue;
+}
+
+
+:hover .picker-input__text {
+    cursor: pointer;
+}
+
+:hover .css-1s2u09g-control {
+    cursor: pointer;
+}
+
+@media (max-width: 300px) {
+    .calendar__container {
+        width: 5rem;
+    }
+    .picker-input__text {
+        width: 5rem;
+    }
+    h1 {
+        width: 5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .calendar__container {
+        width: 10rem;
+    }
+    .picker-input__text {
+        width: 10rem;
+    }
+    h1 {
+        width: 10rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .calendar__container {
+        width: 15rem;
+    }
+    .picker-input__text {
+        width: 15rem;
+    }
+    h1 {
+        width: 15rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .calendar__container {
+        width: 20rem;
+    }
+    .picker-input__text {
+        width: 20rem;
+    }
+    h1 {
+        width: 20rem;
+    }
+}
+
+
+#react-select-3-group-0-heading {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#react-select-3-group-1-heading {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.css-yt9ioa-option {
+    font-weight: bold;
+}
+
+.css-1n7v3ny-option {
+    font-weight: bold;
+}
+
+::-webkit-scroolbar {
+    visibility: hidden;
+    width: '2px';
+}
+
+#react-select-3-listbox::-webkit-scroolbar-track {
+    background: #f1f1f1
+}
+
+#react-select-3-listbox::-webkit-scroolbar-thumb {
+    background: #888
+}
+
+#react-select-3-listbox::-webkit-scroolbar-thumb:hover {
+    background: #555
+}
+
+.DateSelect {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.SelectEmpoloye {
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
